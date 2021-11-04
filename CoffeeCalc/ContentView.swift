@@ -27,6 +27,7 @@ struct ContentView: View {
                         .foregroundColor(Color(red: rGuess, green: gGuess, blue: bGuess, opacity: 1.0)).cornerRadius(4)
                 }
             }
+            
             HStack {
                 Text("Match color: ")
                 
