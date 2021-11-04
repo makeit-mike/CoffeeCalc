@@ -20,11 +20,11 @@ struct ContentView: View {
             HStack {
                 VStack {
                     Rectangle()
-                        .foregroundColor(Color(red: rTarget, green: gTarget, blue: bTarget, opacity: 1.0))
+                        .foregroundColor(Color(red: rTarget, green: gTarget, blue: bTarget, opacity: 1.0)).cornerRadius(4)
                 }
                 VStack {
                     Rectangle()
-                        .foregroundColor(Color(red: rGuess, green: gGuess, blue: bGuess, opacity: 1.0))
+                        .foregroundColor(Color(red: rGuess, green: gGuess, blue: bGuess, opacity: 1.0)).cornerRadius(4)
                 }
             }
             HStack {
