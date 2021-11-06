@@ -14,7 +14,6 @@ struct StocksView: View {
             BodyView()
             FooterView()
         }.padding(10).background(.black).foregroundColor(.white).preferredColorScheme(.dark)
-
     }
 }
 
@@ -50,32 +49,8 @@ struct FooterView: View {
     var body: some View{
         VStack{
             HStack{
-                Button(action: {}) {
-                    HStack {
-                            Image(systemName: "magazine")
-                                .font(.title)
-                            Text("Portfolio")
-                                .fontWeight(.semibold)
-                                .font(.title)
-                        }
-                        .padding(10)
-                        .foregroundColor(.white)
-                        .background(Color.gray)
-                        .cornerRadius(20)
-                }
-                Button(action: {}) {
-                    HStack {
-                            Image(systemName: "magnifyingglass")
-                                .font(.title)
-                            Text("Search")
-                                .fontWeight(.semibold)
-                                .font(.title)
-                        }
-                        .padding(11)
-                        .foregroundColor(.white)
-                        .background(Color.gray)
-                        .cornerRadius(20)
-                }
+                FooterNavButtonView(iconName: "magazine", btnText: "Portfolio")
+                FooterNavButtonView(iconName: "magnifyingglass", btnText: "Search")
             }.font(.title2)
         }.frame(
             minWidth: 0,
@@ -84,6 +59,27 @@ struct FooterView: View {
             maxHeight: 50,
             alignment: .center
           ).opacity(0.6)
+    }
+}
+
+struct FooterNavButtonView: View {
+    @State var iconName: String
+    @State var btnText: String
+    
+    var body: some View{
+        Button(action: {}) {
+            HStack {
+                    Image(systemName: iconName)
+                        .font(.title)
+                    Text(btnText)
+                        .fontWeight(.semibold)
+                        .font(.title)
+                }
+                .padding(10)
+                .foregroundColor(.white)
+                .background(Color.gray)
+                .cornerRadius(20)
+        }
     }
 }
 
