@@ -11,7 +11,8 @@ import SwiftUI
 struct CoffeeCalcApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5)
+            // ColorPickerView(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5) // Color Picker Demo
+            ContentView()
         }
     }
 }
