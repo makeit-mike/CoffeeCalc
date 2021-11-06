@@ -28,7 +28,7 @@ struct HeaderView: View {
             minHeight: 0,
             maxHeight: 48,
             alignment: .topLeading
-          )
+        )
     }
 }
 
@@ -58,7 +58,7 @@ struct FooterView: View {
             minHeight: 0,
             maxHeight: 50,
             alignment: .center
-          ).opacity(0.6)
+        ).opacity(0.6)
     }
 }
 
@@ -69,16 +69,16 @@ struct FooterNavButtonView: View {
     var body: some View{
         Button(action: {}) {
             HStack {
-                    Image(systemName: iconName)
-                        .font(.title)
-                    Text(btnText)
-                        .fontWeight(.semibold)
-                        .font(.title)
-                }
-                .padding(10)
-                .foregroundColor(.white)
-                .background(Color.gray)
-                .cornerRadius(20)
+                Image(systemName: iconName)
+                    .font(.title)
+                Text(btnText)
+                    .fontWeight(.semibold)
+                    .font(.title)
+            }
+            .padding(10)
+            .foregroundColor(.white)
+            .background(Color.gray)
+            .cornerRadius(20)
         }
     }
 }
@@ -98,17 +98,17 @@ struct StockSearchView: View {
              Click Cancel
              */
             HStack{
-            Text("Stock Symbol:")
+                Text("Stock Symbol:")
                 TextField("", text: $stockSymbol).foregroundColor(.white).background(.gray).padding(0).cornerRadius(20).frame(width: 120, height: .infinity, alignment: .topLeading).font(.title).opacity(0.5)
             }
             
             Text("Stock Price: $123.45").foregroundColor(.white).frame(width: 300, height: 20, alignment: .topLeading)
             Text("Estimated Growth: 0.025%").foregroundColor(.white).frame(width: 300, height: 20, alignment: .topLeading)
             Text("Shareholders: 2.5 mil").foregroundColor(.white).frame(width: 300, height: 20, alignment: .topLeading)
-
+            
             
         }.frame(width: 300, height: 300, alignment: .topLeading)
-
+        
     }
 }
 
