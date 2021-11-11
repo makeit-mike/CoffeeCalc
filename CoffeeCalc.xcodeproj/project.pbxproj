@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5890089B2736E9E40098290A /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890089A2736E9E40098290A /* ColorPickerView.swift */; };
-		5890089D2736FA1C0098290A /* StocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890089C2736FA1C0098290A /* StocksView.swift */; };
 		58DDD6452733708A00425274 /* CoffeeCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDD6442733708A00425274 /* CoffeeCalcApp.swift */; };
 		58DDD6472733708A00425274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDD6462733708A00425274 /* ContentView.swift */; };
 		58DDD6492733708B00425274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DDD6482733708B00425274 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		5890089A2736E9E40098290A /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		5890089C2736FA1C0098290A /* StocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksView.swift; sourceTree = "<group>"; };
 		58DDD6412733708A00425274 /* CoffeeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DDD6442733708A00425274 /* CoffeeCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCalcApp.swift; sourceTree = "<group>"; };
 		58DDD6462733708A00425274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			children = (
 				58DDD6442733708A00425274 /* CoffeeCalcApp.swift */,
 				58DDD6462733708A00425274 /* ContentView.swift */,
-				5890089C2736FA1C0098290A /* StocksView.swift */,
 				5890089A2736E9E40098290A /* ColorPickerView.swift */,
 				58DDD6482733708B00425274 /* Assets.xcassets */,
 				58DDD64A2733708B00425274 /* Preview Content */,
@@ -264,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				58DDD6472733708A00425274 /* ContentView.swift in Sources */,
-				5890089D2736FA1C0098290A /* StocksView.swift in Sources */,
 				58DDD6452733708A00425274 /* CoffeeCalcApp.swift in Sources */,
 				5890089B2736E9E40098290A /* ColorPickerView.swift in Sources */,
 			);
