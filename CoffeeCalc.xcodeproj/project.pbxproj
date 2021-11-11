@@ -8,6 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		5890089B2736E9E40098290A /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890089A2736E9E40098290A /* ColorPickerView.swift */; };
+		58AC5CD2273DB48200D8DE51 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC5CD1273DB48200D8DE51 /* CurrentView.swift */; };
+		58AC5CD3273DB48200D8DE51 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC5CD1273DB48200D8DE51 /* CurrentView.swift */; };
+		58AC5CD4273DB48200D8DE51 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC5CD1273DB48200D8DE51 /* CurrentView.swift */; };
+		58AC5CDA273DD47200D8DE51 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AC5CD9273DD47200D8DE51 /* ObjC.m */; };
+		58AC5CDB273DD47200D8DE51 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AC5CD9273DD47200D8DE51 /* ObjC.m */; };
+		58AC5CDC273DD47200D8DE51 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AC5CD9273DD47200D8DE51 /* ObjC.m */; };
+		58B22194273D9EBB00F40CDE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B22193273D9EBB00F40CDE /* Extensions.swift */; };
+		58B22195273D9EBB00F40CDE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B22193273D9EBB00F40CDE /* Extensions.swift */; };
+		58B22196273D9EBB00F40CDE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B22193273D9EBB00F40CDE /* Extensions.swift */; };
+		58B2219A273DAA4400F40CDE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B22199273DAA4400F40CDE /* TimerView.swift */; };
+		58B2219B273DAA4400F40CDE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B22199273DAA4400F40CDE /* TimerView.swift */; };
+		58B2219C273DAA4400F40CDE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B22199273DAA4400F40CDE /* TimerView.swift */; };
+		58B2219F273DAAC500F40CDE /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B2219E273DAAC500F40CDE /* Time.swift */; };
+		58B221A0273DAAC500F40CDE /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B2219E273DAAC500F40CDE /* Time.swift */; };
+		58B221A1273DAAC500F40CDE /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B2219E273DAAC500F40CDE /* Time.swift */; };
+		58B221A3273DB2E100F40CDE /* BrewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221A2273DB2E100F40CDE /* BrewTimerView.swift */; };
+		58B221A4273DB2E100F40CDE /* BrewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221A2273DB2E100F40CDE /* BrewTimerView.swift */; };
+		58B221A5273DB2E100F40CDE /* BrewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221A2273DB2E100F40CDE /* BrewTimerView.swift */; };
+		58B221A7273DB2EC00F40CDE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221A6273DB2EC00F40CDE /* SettingsView.swift */; };
+		58B221A8273DB2EC00F40CDE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221A6273DB2EC00F40CDE /* SettingsView.swift */; };
+		58B221A9273DB2EC00F40CDE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221A6273DB2EC00F40CDE /* SettingsView.swift */; };
+		58B221AB273DB2F700F40CDE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221AA273DB2F700F40CDE /* CalculatorView.swift */; };
+		58B221AC273DB2F700F40CDE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221AA273DB2F700F40CDE /* CalculatorView.swift */; };
+		58B221AD273DB2F700F40CDE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221AA273DB2F700F40CDE /* CalculatorView.swift */; };
+		58B221AF273DB32800F40CDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221AE273DB32800F40CDE /* HomeView.swift */; };
+		58B221B0273DB32800F40CDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221AE273DB32800F40CDE /* HomeView.swift */; };
+		58B221B1273DB32800F40CDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221AE273DB32800F40CDE /* HomeView.swift */; };
+		58B221B3273DB33B00F40CDE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221B2273DB33B00F40CDE /* FooterView.swift */; };
+		58B221B4273DB33B00F40CDE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221B2273DB33B00F40CDE /* FooterView.swift */; };
+		58B221B5273DB33B00F40CDE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B221B2273DB33B00F40CDE /* FooterView.swift */; };
 		58DDD6452733708A00425274 /* CoffeeCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDD6442733708A00425274 /* CoffeeCalcApp.swift */; };
 		58DDD6472733708A00425274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDD6462733708A00425274 /* ContentView.swift */; };
 		58DDD6492733708B00425274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DDD6482733708B00425274 /* Assets.xcassets */; };
@@ -36,6 +66,20 @@
 
 /* Begin PBXFileReference section */
 		5890089A2736E9E40098290A /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		58AC5CD1273DB48200D8DE51 /* CurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentView.swift; sourceTree = "<group>"; };
+		58AC5CD5273DD44C00D8DE51 /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjC.h; path = CoffeeCalc/ObjC.h; sourceTree = SOURCE_ROOT; };
+		58AC5CD6273DD47200D8DE51 /* CoffeeCalc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeCalc-Bridging-Header.h"; sourceTree = "<group>"; };
+		58AC5CD7273DD47200D8DE51 /* CoffeeCalcTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeCalcTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		58AC5CD8273DD47200D8DE51 /* CoffeeCalcUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeCalcUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		58AC5CD9273DD47200D8DE51 /* ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC.m; sourceTree = "<group>"; };
+		58B22193273D9EBB00F40CDE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		58B22199273DAA4400F40CDE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		58B2219E273DAAC500F40CDE /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		58B221A2273DB2E100F40CDE /* BrewTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewTimerView.swift; sourceTree = "<group>"; };
+		58B221A6273DB2EC00F40CDE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		58B221AA273DB2F700F40CDE /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		58B221AE273DB32800F40CDE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		58B221B2273DB33B00F40CDE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		58DDD6412733708A00425274 /* CoffeeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DDD6442733708A00425274 /* CoffeeCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCalcApp.swift; sourceTree = "<group>"; };
 		58DDD6462733708A00425274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +117,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58B2218E273D9E8D00F40CDE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				58B22193273D9EBB00F40CDE /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		58B22197273DAA2700F40CDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58B221B6273DB39400F40CDE /* Generics */,
+				58B221A2273DB2E100F40CDE /* BrewTimerView.swift */,
+				58B221A6273DB2EC00F40CDE /* SettingsView.swift */,
+				58B221AA273DB2F700F40CDE /* CalculatorView.swift */,
+				58B221AE273DB32800F40CDE /* HomeView.swift */,
+				58B221B2273DB33B00F40CDE /* FooterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58B2219D273DAABA00F40CDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58B2219E273DAAC500F40CDE /* Time.swift */,
+				58AC5CD1273DB48200D8DE51 /* CurrentView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58B221B6273DB39400F40CDE /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				58B22199273DAA4400F40CDE /* TimerView.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
 		58DDD6382733708A00425274 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +178,19 @@
 		58DDD6432733708A00425274 /* CoffeeCalc */ = {
 			isa = PBXGroup;
 			children = (
+				58B2219D273DAABA00F40CDE /* Models */,
+				58B22197273DAA2700F40CDE /* Views */,
+				58B2218E273D9E8D00F40CDE /* Helpers */,
 				58DDD6442733708A00425274 /* CoffeeCalcApp.swift */,
 				58DDD6462733708A00425274 /* ContentView.swift */,
 				5890089A2736E9E40098290A /* ColorPickerView.swift */,
 				58DDD6482733708B00425274 /* Assets.xcassets */,
 				58DDD64A2733708B00425274 /* Preview Content */,
+				58AC5CD9273DD47200D8DE51 /* ObjC.m */,
+				58AC5CD5273DD44C00D8DE51 /* ObjC.h */,
+				58AC5CD6273DD47200D8DE51 /* CoffeeCalc-Bridging-Header.h */,
+				58AC5CD7273DD47200D8DE51 /* CoffeeCalcTests-Bridging-Header.h */,
+				58AC5CD8273DD47200D8DE51 /* CoffeeCalcUITests-Bridging-Header.h */,
 			);
 			path = CoffeeCalc;
 			sourceTree = "<group>";
@@ -198,13 +288,16 @@
 				TargetAttributes = {
 					58DDD6402733708A00425274 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					58DDD6502733708B00425274 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 58DDD6402733708A00425274;
 					};
 					58DDD65A2733708B00425274 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 58DDD6402733708A00425274;
 					};
 				};
@@ -260,8 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58AC5CDA273DD47200D8DE51 /* ObjC.m in Sources */,
+				58B2219F273DAAC500F40CDE /* Time.swift in Sources */,
+				58B221A7273DB2EC00F40CDE /* SettingsView.swift in Sources */,
+				58B2219A273DAA4400F40CDE /* TimerView.swift in Sources */,
+				58B221AF273DB32800F40CDE /* HomeView.swift in Sources */,
+				58B221A3273DB2E100F40CDE /* BrewTimerView.swift in Sources */,
+				58B22194273D9EBB00F40CDE /* Extensions.swift in Sources */,
+				58B221B3273DB33B00F40CDE /* FooterView.swift in Sources */,
 				58DDD6472733708A00425274 /* ContentView.swift in Sources */,
 				58DDD6452733708A00425274 /* CoffeeCalcApp.swift in Sources */,
+				58B221AB273DB2F700F40CDE /* CalculatorView.swift in Sources */,
+				58AC5CD2273DB48200D8DE51 /* CurrentView.swift in Sources */,
 				5890089B2736E9E40098290A /* ColorPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +373,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58AC5CDB273DD47200D8DE51 /* ObjC.m in Sources */,
+				58B221A0273DAAC500F40CDE /* Time.swift in Sources */,
+				58B221AC273DB2F700F40CDE /* CalculatorView.swift in Sources */,
+				58B221A4273DB2E100F40CDE /* BrewTimerView.swift in Sources */,
+				58B221B4273DB33B00F40CDE /* FooterView.swift in Sources */,
+				58B2219B273DAA4400F40CDE /* TimerView.swift in Sources */,
+				58B221A8273DB2EC00F40CDE /* SettingsView.swift in Sources */,
+				58B221B0273DB32800F40CDE /* HomeView.swift in Sources */,
 				58DDD6562733708B00425274 /* CoffeeCalcTests.swift in Sources */,
+				58AC5CD3273DB48200D8DE51 /* CurrentView.swift in Sources */,
+				58B22195273D9EBB00F40CDE /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B221B1273DB32800F40CDE /* HomeView.swift in Sources */,
+				58B221A9273DB2EC00F40CDE /* SettingsView.swift in Sources */,
 				58DDD6602733708B00425274 /* CoffeeCalcUITests.swift in Sources */,
+				58B221B5273DB33B00F40CDE /* FooterView.swift in Sources */,
+				58AC5CD4273DB48200D8DE51 /* CurrentView.swift in Sources */,
 				58DDD6622733708B00425274 /* CoffeeCalcUITestsLaunchTests.swift in Sources */,
+				58B221A5273DB2E100F40CDE /* BrewTimerView.swift in Sources */,
+				58B221AD273DB2F700F40CDE /* CalculatorView.swift in Sources */,
+				58B221A1273DAAC500F40CDE /* Time.swift in Sources */,
+				58B2219C273DAA4400F40CDE /* TimerView.swift in Sources */,
+				58B22196273D9EBB00F40CDE /* Extensions.swift in Sources */,
+				58AC5CDC273DD47200D8DE51 /* ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeCalc/Preview Content\"";
@@ -439,6 +563,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = makeitekim.CoffeeCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeCalc/CoffeeCalc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeCalc/Preview Content\"";
@@ -468,6 +595,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = makeitekim.CoffeeCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeCalc/CoffeeCalc-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,6 +606,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -491,6 +620,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = makeitekim.CoffeeCalcTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeCalc/CoffeeCalcTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeCalc.app/CoffeeCalc";
@@ -502,6 +633,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -515,6 +647,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = makeitekim.CoffeeCalcTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeCalc/CoffeeCalcTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeCalc.app/CoffeeCalc";
@@ -525,6 +658,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -537,6 +671,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = makeitekim.CoffeeCalcUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeCalc/CoffeeCalcUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CoffeeCalc;
@@ -547,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -559,6 +696,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = makeitekim.CoffeeCalcUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeCalc/CoffeeCalcUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CoffeeCalc;
